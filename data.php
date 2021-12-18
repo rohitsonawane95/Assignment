@@ -1,6 +1,6 @@
-
-//for display selected value in next page
 <?php
+      
+//for display selected value in next page
 
     if(isset($_POST['submit']))
     {
