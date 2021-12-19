@@ -1,6 +1,6 @@
 <?php
-      
-//for display selected value in next page
+
+    //for display selected value in next page
 
     if(isset($_POST['submit']))
     {
@@ -18,8 +18,8 @@ $Email = $_POST['em'];
 $Telephone= $_POST['Number'];
 $Files = $_POST['File'];
 $Message = $_POST['msg'];
-//for display data in next webpage 
 
+//for display data in next webpage 
 echo "Thank You ".$title. $Firstname.$Lastname."<br>";
 echo "You Have submitted the following details:"."<br>";
 echo "Date of Birth :  ".$Date."<br>";
