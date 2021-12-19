@@ -16,26 +16,26 @@
 <option value="Mr">Mr</option>
 <option value="Mrs">Mrs</option>
 <option value="Ms">Ms</option>
-</select><br>
+</select><br><br>
 <!-- input tag use for create input field--->
 <label>Firstname :*</label>
 <!--- user required to fill * mark field---->
-<input type="text" name="fn" placeholder="enter your first name" required><br>
+<input type="text" name="fn" placeholder="Enter your first name" required><br>
 <label>Lastname :*</label>
-<input type="text" name="ln" placeholder="enter your last name" required><br>
+<input type="text" name="ln" placeholder="Enter your last name" required><br>
 <label>Date of Birth :</label>
 <input type="date" name="DOB"><br>
 <label>Telephone Number : *</label>
-<input type="tel" name="Number" placeholder="Enter Your Number" maxlength="10" required><br>
+<input type="tel" name="Number" placeholder="Enter your number" maxlength="10" required><br>
 <label>File upload (only pdf and images) :</label>
 <!---only pdf and images accept in this field---> 
 <input type="file" onchange="readURL(this);" name="File" accept=".jpg,.pdf" required><br>
 <label>Email : </label>
-<input type="text" name="em" placeholder="enter your email id" required ><br>
+<input type="text" name="em" placeholder="Enter your email id" required ><br>
 <!-- Maxlength attribute used to accept maximum 300 charaters--->
 <label>Message :</label> 
-<input type="text" name="msg" maxlength="300"><br>
-<input type="submit" name="submit">
+<input type="text" name="msg" placeholder="Enter Message" maxlength="300"><br>
+<input type="submit" name="submit" id="submit">
 </div>	
 </form>	
 </body>
